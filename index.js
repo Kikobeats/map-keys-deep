@@ -1,12 +1,12 @@
 'use strict'
 
-const { isPlainObject, mapKeys, mapValues } = require('lodash')
+const { map, isArray, isPlainObject, mapKeys, mapValues } = require('lodash')
 
 const mapKeysDeep = (obj, fn) =>
-  Array.isArray(obj)
-    ? obj.map(item => mapKeysDeep(item, fn))
+  isArray(obj)
+    ? map(obj, innerObj => mapKeysDeep(innerObj, fn))
     : isPlainObject(obj)
-      ? mapValues(mapKeys(obj, fn), value => mapKeysDeep(value, fn))
-      : obj
+    ? mapValues(mapKeys(obj, fn), value => mapKeysDeep(value, fn))
+    : obj
 
 module.exports = mapKeysDeep
