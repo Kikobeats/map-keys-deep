@@ -2,22 +2,20 @@
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/map-keys-deep.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/Kikobeats/map-keys-deep/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/map-keys-deep)
-[![Dependency status](https://img.shields.io/david/@kikobeats/map-keys-deep.svg?style=flat-square)](https://david-dm.org/Kikobeats/map-keys-deep)
-[![Dev Dependencies Status](https://img.shields.io/david/dev/@kikobeats/map-keys-deep.svg?style=flat-square)](https://david-dm.org/Kikobeats/map-keys-deep#info=devDependencies)
-[![NPM Status](https://img.shields.io/npm/dm/@kikobeats/map-keys-deep.svg?style=flat-square)](https://www.npmjs.org/package/@kikobeats/jsonsort)
+[![NPM Status](https://img.shields.io/npm/dm/@kikobeats/map-keys-deep.svg?style=flat-square)](https://www.npmjs.org/package/@kikobeats/map-keys-deep)
 
 > Recursive lodash.mapKeys
 
 ## Install
 
 ```bash
-$ npm install lodash map-keys-deep --save
+$ npm install lodash @kikobeats/map-keys-deep --save
 ```
 
 ## Usage
 
 ```js
-const mapKeysDeep = require('map-keys-deep')
+const mapKeysDeep = require('@kikobeats/map-keys-deep')
 
 mapKeysDeep({ Hello: { World: true } }, (value, key) => key.toLowerCase())
 // => { hello: { world: true } }
