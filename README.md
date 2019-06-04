@@ -1,11 +1,10 @@
 # @kikobeats/map-keys-deep
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/map-keys-deep.svg?style=flat-square)
-[![Build Status](https://img.shields.io/travis/com/Kikobeats/map-keys-deep/master.svg?style=flat-square)](https://travis-ci.com/Kikobeats/map-keys-deep)
-[![Coverage Status](https://img.shields.io/coveralls/Kikobeats/map-keys-deep.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/map-keys-deep)
-[![Dependency status](https://img.shields.io/david/Kikobeats/map-keys-deep.svg?style=flat-square)](https://david-dm.org/Kikobeats/map-keys-deep)
-[![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/map-keys-deep.svg?style=flat-square)](https://david-dm.org/Kikobeats/map-keys-deep#info=devDependencies)
-[![NPM Status](https://img.shields.io/npm/dm/map-keys-deep.svg?style=flat-square)](https://www.npmjs.org/package/map-keys-deep)
+[![Build Status](https://img.shields.io/travis/Kikobeats/map-keys-deep/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/map-keys-deep)
+[![Dependency status](https://img.shields.io/david/@kikobeats/map-keys-deep.svg?style=flat-square)](https://david-dm.org/Kikobeats/map-keys-deep)
+[![Dev Dependencies Status](https://img.shields.io/david/dev/@kikobeats/map-keys-deep.svg?style=flat-square)](https://david-dm.org/Kikobeats/map-keys-deep#info=devDependencies)
+[![NPM Status](https://img.shields.io/npm/dm/@kikobeats/map-keys-deep.svg?style=flat-square)](https://www.npmjs.org/package/@kikobeats/jsonsort)
 
 > Recursive lodash.mapKeys
 
