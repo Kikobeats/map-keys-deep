@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/Kikobeats/map-keys-deep/compare/v1.0.0...v1.0.1) (2019-06-04)
+
+
+### Bug Fixes
+
+* typo ([0cbe093](https://github.com/Kikobeats/map-keys-deep/commit/0cbe093))
+
+
+### Build System
+
+* add files meta ([7da1cb9](https://github.com/Kikobeats/map-keys-deep/commit/7da1cb9))
+
+
+
 ## [1.0.0](https://github.com/Kikobeats/map-keys-deep/compare/v0.0.2...v1.0.0) (2019-06-04)
 
 
