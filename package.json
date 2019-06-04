@@ -2,7 +2,7 @@
   "name": "@kikobeats/map-keys-deep",
   "description": "Recursive lodash.mapKeys",
   "homepage": "https://nicedoc.io/Kikobeats/map-keys-deep",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "main": "index.js",
   "author": {
     "name": "Kiko Beats",
