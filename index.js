@@ -6,7 +6,7 @@ const mapKeysDeep = (obj, fn) =>
   isArray(obj)
     ? map(obj, innerObj => mapKeysDeep(innerObj, fn))
     : isPlainObject(obj)
-    ? mapValues(mapKeys(obj, fn), value => mapKeysDeep(value, fn))
-    : obj
+      ? mapValues(mapKeys(obj, fn), value => mapKeysDeep(value, fn))
+      : obj
 
 module.exports = mapKeysDeep
