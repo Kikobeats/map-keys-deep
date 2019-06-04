@@ -50,7 +50,7 @@
     "clean": "rm -rf node_modules",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "lint": "standard-markdown README.md && standard",
-    "postrelease": "npm run release:tags && npm run release:github && ci-publish",
+    "postrelease": "npm run release:tags && npm run release:github && ci-publish --access=public",
     "precommit": "lint-staged",
     "prerelease": "npm run update:check",
     "pretest": "npm run lint",
