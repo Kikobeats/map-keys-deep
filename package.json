@@ -57,7 +57,7 @@
     "precommit": "lint-staged",
     "prerelease": "npm run update:check",
     "pretest": "npm run lint",
-    "release": "git-authors-cli finepack && git add package.json && standard-version -a",
+    "release": "git-authors-cli && finepack && git add package.json && standard-version -a",
     "release:github": "conventional-github-releaser -p angular",
     "release:tags": "git push --follow-tags origin HEAD:master",
     "test": "nyc ava",
