@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/Kikobeats/map-keys-deep/compare/v1.0.4...v1.0.5) (2019-06-19)
+
+
+### Build System
+
+* update travis ([6f67423](https://github.com/Kikobeats/map-keys-deep/commit/6f67423))
+
+
+
 ### [1.0.4](https://github.com/Kikobeats/map-keys-deep/compare/v1.0.3...v1.0.4) (2019-06-09)
 
 
